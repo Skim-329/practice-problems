@@ -1,0 +1,36 @@
+.container {
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 0.5rem;
+}
+
+.column-fifth {
+  width: 20%;
+  height: 20rem;
+  padding: 0.1rem;
+}
+
+img {
+  width: 85%;
+  height: 65%;
+}
+
+span {
+  color: lightgray;
+}
