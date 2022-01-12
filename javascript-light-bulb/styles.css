@@ -1,0 +1,23 @@
+.container {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container.on {
+  background-color: white;
+}
+
+.lightbulb {
+  height: 25rem;
+  width: 25rem;
+  background-color: lightpink;
+  border-radius: 50%;
+  display: flex;
+}
+
+.lightbulb.on {
+  background-color: lime;
+}
