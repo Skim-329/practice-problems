@@ -4,7 +4,7 @@ var modal = document.querySelector(".modal");
 
 openModalButton.addEventListener("click", function (event) {
   if (event.target === openModalButton) {
-    modal.className = "model-open";
+    modal.className = "modal-open";
   }
 });
 
