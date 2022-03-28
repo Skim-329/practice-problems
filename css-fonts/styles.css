@@ -1,11 +1,13 @@
 h1 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: red;
+  color: green;
+  background-color: aliceblue;
 }
 
 p {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: green;
-  line-height: 2rem;
+  color: goldenrod;
+  line-height: 1rem;
+  font-weight: light;
 }
