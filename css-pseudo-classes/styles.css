@@ -1,0 +1,28 @@
+button {
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+  border-color: red;
+  font-weight: bold;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+}
+
+thead {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: lightgray;
+}
