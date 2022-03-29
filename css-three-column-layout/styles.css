@@ -1,0 +1,44 @@
+.row {
+  display: flex;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-one-third {
+  width: calc(100% / 3);
+}
+
+header {
+  margin-top: 50px;
+  margin-bottom: 38px;
+}
+
+section {
+  background-color: white;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+p {
+  color: rgb(226, 226, 166);
+  font-size: 85%;
+  max-width: 85%;
+  text-align: center;
+  margin: 0 auto;
+}
