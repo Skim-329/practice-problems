@@ -1,0 +1,45 @@
+.row {
+  margin: 0 auto;
+  display: flex;
+  width: 800px;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-half {
+  width: 50%;
+  display: flex;
+}
+
+img {
+  size: 40%;
+}
+
+.description {
+  max-width: 200px;
+}
+
+h1 {
+  font-family: Karla;
+  font-weight: bold;
+  font-size: 2.7rem;
+  letter-spacing: 0.175rem;
+  text-align: center;
+  margin-bottom: 0.15rem;
+}
+
+p {
+  font-family: Karla;
+  letter-spacing: 0.05rem;
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  text-align: center;
+  color: rgb(104, 103, 103);
+}
+
+h3 {
+  font-size: 0.8rem;
+  font-family: Karla;
+}
