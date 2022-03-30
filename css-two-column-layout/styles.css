@@ -1,7 +1,6 @@
-.row {
+.row1 {
   margin: 0 auto;
-  display: flex;
-  width: 800px;
+  max-width: 570px;
 }
 
 .column-full {
