@@ -12,7 +12,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 15px 5%;
+  padding: 15px 10%;
 }
 
 .logo-blue {
@@ -47,8 +47,75 @@ button {
   cursor: pointer;
   transition: all 0.3s ease 0s;
   margin-left: 10px;
+  border-radius: 5px;
 }
 
 button:hover {
   background-color: rgba(0.9, 136, 169, 1);
+}
+
+.row-1 {
+  margin: 30px 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main-section {
+  position: relative;
+}
+
+.hero-image {
+  filter: brightness(70%);
+  opacity: 0.9;
+  margin-top: -60px;
+  margin-bottom: -30px;
+  width: 100%;
+}
+
+.hero-text {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  bottom: 5%;
+  margin-right: 50%;
+}
+
+.hero-text h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.hero-text p {
+  font-family: Avenir;
+  color: white;
+  line-height: 1.75rem;
+  letter-spacing: 0.01rem;
+}
+
+.get-started button {
+  margin: 0;
+  margin-top: 20px;
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-size: 1.25rem;
+}
+
+.row-2 {
+  background-color: #fafafa;
+  margin: 5px 5%;
+  padding: 10px;
+}
+
+.column-full {
+  text-align: center;
+}
+
+.column-half {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
