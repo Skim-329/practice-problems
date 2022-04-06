@@ -1,6 +1,6 @@
-const fullName = "Simon Kim";
+const fullName = "Arwen Kim";
 const isCool = true;
-const totalPets = 1;
+const totalPets = 2;
 
 console.log("value of fullName:", fullName);
 console.log("value of isCool:", isCool);
